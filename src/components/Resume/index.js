@@ -1,4 +1,5 @@
 import React from 'react';
+import Nav from '../Navigation';
 //import runBuddyImg from '../assets/run-buddy.PNG';
 //import beerMeImg from '../assets/BeerMe.png';
 //import comEventImg from '../assets/ComEvent.png';

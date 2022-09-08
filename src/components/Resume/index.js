@@ -1,8 +1,22 @@
 import React from 'react';
-import Project from '../Projects';
+//import from '';
+//import from '';
+//import from '';
+//import from '';
+//import from '';
+//import from ''
 
-function Resume() {
-    return 
+function Project() {
+    const applications = [
+        {
+            title: '',
+            appLink: '',
+            repoLink: '',
+            languages: '',
+            picture: ''
+        },
+    ];
+
 }
 
-export default Resume;
+export default Project;

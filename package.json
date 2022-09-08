@@ -1,19 +1,41 @@
 {
-  "name": "reactport",
-  "version": "1.0.0",
-  "description": "## Final portfolio for MSU bootcamp.",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  },
+  "description": "",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JPage96/ReactPort.git"
+    "url": "git+https://github.com/JPage96"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/JPage96/ReactPort/issues"
-  },
-  "homepage": "https://github.com/JPage96/ReactPort#readme"
+    "url": "https://github.com/JPage96"
+  }
 }

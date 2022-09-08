@@ -382,7 +382,7 @@ main {
     justify-content: center;
   }
   
-  .social-line{
+  .intro {
     position: fixed;
     height: 50px;
     bottom: 47%;
@@ -545,7 +545,7 @@ main {
       z-index: 999;
     }
   
-    .social-line {
+    .intro {
       width: 100%;
       position: absolute;
     }

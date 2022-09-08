@@ -1,4 +1,5 @@
 import React from 'react';
+import Nav from '../Navigation';
 import Project from '../Resume/index';
 
 function Portfolio() {

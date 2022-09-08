@@ -150,6 +150,8 @@ main {
   }
   #about .contact-details { 
     width: 41.66667%; 
+    justify-content: center;
+    align-items: center;
   }
   
   .container {

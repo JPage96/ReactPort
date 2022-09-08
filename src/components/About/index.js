@@ -1,5 +1,4 @@
 import React from 'react';
-import myResume from ".";
 
 function About() {
     return (

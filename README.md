@@ -37,7 +37,7 @@ Live Page:
 https://jpage96.github.io/ReactPort/
 
 Screenshot:
-![screentshot](./src/assets/screenshot.png "screenshot")
+![screentshot](./src/assets/screenshot2.png "screenshot")
 
 Heroku:
 https://portfoliojp22.herokuapp.com/

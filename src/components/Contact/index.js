@@ -43,7 +43,7 @@ function Contact() {
 
 
     return (
-        <section className="my-5">
+        <section>
             <h1 className="titles">
                 Reach Out!
             </h1>

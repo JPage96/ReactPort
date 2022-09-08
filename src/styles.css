@@ -164,19 +164,6 @@ main {
     margin-right: auto;
   }
   
-  .img-text-box {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    max-width: 100%;
-    padding: 50px 30px;
-  }
-  
-  .my-pic {
-    display: block;
-    width: auto;
-    height: 362px;
-  }
   
   .margin-block {
     margin: 0 1rem;
@@ -196,30 +183,10 @@ main {
     justify-content: flex-end;
   }
   
-  .mx-1 {
-    margin-right: var(--spacing-one);
-    margin-left: var(--spacing-one);
-  }
-  
-  .mx-2 {
+  .hide {
     list-style: none;
     margin-right: var(--spacing-two);
     margin-left: var(--spacing-two);
-  }
-  
-  .my-1 {
-    margin-top: var(--spacing-one);
-    margin-bottom: var(--spacing-one);
-  }
-  
-  .my-2 {
-    margin-top: var(--spacing-two);
-    margin-bottom: var(--spacing-two);
-  }
-  
-  .my-5 {
-    margin-top: var(--spacing-five);
-    margin-bottom: var(--spacing-five);
   }
   
   .px-1 {
@@ -466,15 +433,6 @@ main {
       max-width: 100%;
       padding: 0 5%;
     }
-  
-    .my-pic {
-      width: 40%;
-      height: 40%;
-    }
-    .img-box {
-      display: flex;
-      justify-content: center;
-    }
   }
   
   @media screen and (max-width: 768px) {
@@ -505,22 +463,6 @@ main {
   
   
   @media screen and (max-width: 575px) {
-  
-    .my-2 {
-      margin: 0;
-      font-size: 10px;
-      line-height: 1;
-      width: 100%;
-    }
-  
-    .my-pic {
-      max-width: 100%;
-      margin: 0;
-    }
-  
-    .img-text-box {
-      margin: 0;
-    }
   
     ol, ul {
       padding-left: none;

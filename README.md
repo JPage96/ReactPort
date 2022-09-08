@@ -31,4 +31,10 @@ WHEN I view the footer
 THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter) 
 
 GitHub:
+https://github.com/JPage96/ReactPort
 
+Live Page:
+https://jpage96.github.io/ReactPort/
+
+Screenshot:
+![screentshot](./src/assets/screenshot.png "screenshot")

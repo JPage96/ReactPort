@@ -15,7 +15,7 @@ function Project() {
         {
             title: 'BeerMe',
             appLink: '',
-            //picture: beerMeImg
+            //picture: 
         },
         {
             title: 'Community Events',
@@ -28,6 +28,19 @@ function Project() {
             //picture: tipsyTechImg
         },
     ];
+
+    return (
+        <div className="project-container flex-row space-evenly">
+            {applications.map(project => (
+                <article className="project-card" key={project.title}>
+                        <div className="project-title flex-row align-item-center" key={project.title}>
+                            <h3><a href={project.appLink} target="_blank" className="appLink">{project.title}</a></h3>
+                        </div>
+                </article>
+            ))}
+        </div>
+
+    )
 
 }
 

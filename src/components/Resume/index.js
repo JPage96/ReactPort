@@ -9,22 +9,22 @@ function Project() {
         {
             title: 'Run Buddy',
             appLink: '',
-            picture: runBuddyImg
+            //picture: runBuddyImg
         },
         {
             title: 'BeerMe',
             appLink: '',
-            picture: beerMeImg
+            //picture: beerMeImg
         },
         {
             title: 'Community Events',
             appLink: 'https://whispering-crag-28124.herokuapp.com/',
-            picture: comEventImg
+            //picture: comEventImg
         },
         {
             title: 'Tipsy Tech',
             appLink: '',
-            picture: tipsyTechImg
+            //picture: tipsyTechImg
         },
     ];
 
